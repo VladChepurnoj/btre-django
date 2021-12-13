@@ -1,0 +1,8 @@
+pip freeze
+source ./venv/scripts/activate
+./venv/scripts/activate
+source ./venv/scripts/activate.bat
+deactivate
+python version
+pip3 freeze
+python manage.py runserver
