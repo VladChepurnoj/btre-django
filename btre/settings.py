@@ -148,3 +148,11 @@ MEDIA_URL = '/media/'
 MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
+
+
+# email config
+EMAIL_HOST = 'smtp.gamil.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'chepurnojv@gmail.com'
+EMAIL_HOST_PASSWORD = ''
+EMAIL_USE_TLS = True
